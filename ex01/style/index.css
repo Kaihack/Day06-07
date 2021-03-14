@@ -1,0 +1,24 @@
+.grid { 
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(3, 300px);
+  column-gap: 50px;
+  row-gap: 190px;
+  align-items:flex-start;
+  justify-content: center;
+  }
+  h1 {
+    color: red;
+    text-align: center;
+  }  
+  h4 {
+    color: lightblue;
+  }
+.grid > article img {
+  max-width: 100%;
+}
+.text {
+  padding: 0 15px 20px;
+  text-align: justify;
+}
+  
